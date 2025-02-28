@@ -1,9 +1,7 @@
 ---
-title: "Portland AI Engineers"
+title: "Welcome to Portland AI Engineers"
 description: "A community of AI engineers in Portland"
 ---
-
-# Welcome to Portland AI Engineers
 
 We are a community of AI engineers, researchers, and enthusiasts based in Portland, Oregon. Our mission is to foster collaboration, learning, and innovation in the field of artificial intelligence.
 

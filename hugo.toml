@@ -11,8 +11,16 @@ theme = 'hextra'
   enableDarkMode = true
   # Add a GitHub repo to show Edit on GitHub button
   gitRepo = "https://github.com/portland-ai-engineers/portland-ai-engineers.github.io"
-  # Site logo
-  logo = "/images/Portland-AI-Eng-logo.jpg"
+  
+  # Logo configuration
+  [params.navbar]
+    displayTitle = true
+    displayLogo = true
+    [params.navbar.logo]
+      path = "images/Portland-AI-Eng-logo.jpeg"
+      link = "/"
+      width = 80
+      height = 80
 
 # Configure main navigation menu
 [menu]
