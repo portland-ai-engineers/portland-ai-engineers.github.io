@@ -16,7 +16,7 @@ We are a community of AI engineers, researchers, and enthusiasts based in Portla
 
 ## Recent Posts
 
-{{< recent-posts 3 >}}
+Check out our [blog posts](/posts/) for the latest updates and articles.
 
 ## Join Us
 
