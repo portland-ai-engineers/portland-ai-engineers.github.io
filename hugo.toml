@@ -1,6 +1,6 @@
 baseURL = 'https://portland-ai-engineers.github.io/'
 languageCode = 'en-us'
-title = 'Portland AI Engineer'
+title = 'Portland AI Engineers'
 theme = 'hextra'
 
 [params]
@@ -9,15 +9,58 @@ theme = 'hextra'
   enableSearch = true
   # Enable dark/light mode switch
   enableDarkMode = true
+  # Add a GitHub repo to show Edit on GitHub button
+  gitRepo = "https://github.com/portland-ai-engineers/portland-ai-engineers.github.io"
+  # Site logo
+  logo = "/images/Portland-AI-Eng-logo.jpg"
 
+# Configure main navigation menu
 [menu]
   [[menu.main]]
     identifier = "home"
     name = "Home"
     url = "/"
     weight = 1
+    [menu.main.params]
+      icon = "home"
+  
+  [[menu.main]]
+    identifier = "events"
+    name = "Events"
+    url = "/events/"
+    weight = 2
+    [menu.main.params]
+      icon = "calendar"
+  
   [[menu.main]]
     identifier = "posts"
-    name = "Posts"
+    name = "Blog"
     url = "/posts/"
+    weight = 3
+    [menu.main.params]
+      icon = "book-open"
+  
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 4
+    [menu.main.params]
+      icon = "mail"
+
+  # Social media links in the footer
+  [[menu.social]]
+    identifier = "github"
+    name = "GitHub"
+    url = "https://github.com/portland-ai-engineers"
+    weight = 1
+    [menu.social.params]
+      icon = "github"
+  
+  [[menu.social]]
+    identifier = "bluesky"
+    name = "Bluesky"
+    url = "https://bsky.app/profile/portlandaieng.bsky.social"
     weight = 2
+    [menu.social.params]
+      icon = "at-sign"
