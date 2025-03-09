@@ -1,7 +1,7 @@
 baseURL = 'https://portland-ai-engineers.github.io/'
 languageCode = 'en-us'
 title = 'Portland AI Engineers'
-theme = 'hextra'
+theme = 'PaperMod'
 
 [params]
   description = "Portland AI Engineer's Website"

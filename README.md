@@ -125,7 +125,7 @@ If needed, you can manually trigger a deployment:
 
 ## Theme Customization
 
-To customize the Hextra theme:
+To customize the [PaperMod](https://github.com/adityatelange/hugo-PaperMod/wiki/) theme:
 
 1. Override templates by creating matching files in `/layouts/`
 2. Add custom CSS in `/static/css/custom.css`
@@ -141,10 +141,10 @@ The site uses Hugo version 0.145.0. To update:
 
 ### Update Theme
 
-The Hextra theme is included as a Git submodule. To update:
+The [PaperMod](https://github.com/adityatelange/hugo-PaperMod/wiki/) theme is included as a Git submodule. To update:
 
 ```bash
-git submodule update --remote themes/hextra
-git add themes/hextra
-git commit -m "chore: Update Hextra theme"
+git submodule update --remote themes/PaperMod
+git add themes/PaperMod
+git commit -m "chore: Update PaperMod theme"
 git push

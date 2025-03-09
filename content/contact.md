@@ -16,4 +16,4 @@ You can reach us at: [info@portlandai.engineer](mailto:info@portlandai.engineer)
 ## Suggest a Topic
 
 Have an idea for a meetup or workshop? We're always looking for new topics and speakers. 
-[Submit your suggestion](mailto:topics@portlandai.engineer) and we'll get back to you soon.
+[Submit your suggestion](mailto:info@portlandai.engineer) and we'll get back to you soon.
